@@ -1,7 +1,7 @@
 const { RichEmbed } = require("discord.js");
 
 module.exports = {
-    name: "ping",
+    name: "poll",
     category: "moderation",
     descripton: "Tworzy Ankiete",
     usage: "<prefiks> pytanie ankiety",
