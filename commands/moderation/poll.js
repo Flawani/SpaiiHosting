@@ -5,7 +5,7 @@ module.exports = {
     category: "moderation",
     descripton: "Tworzy Ankiete",
     usage: "<prefiks> pytanie ankiety",
-    run: async (client, message, args, tools) => {
+    run: async (client, message, args ) => {
 
         if(!message.member.roles.find(r => r.name === 'Ankieta')) return message.channel.send('wymaga to roli: Ankieta');
 
