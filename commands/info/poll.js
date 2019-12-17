@@ -3,7 +3,7 @@ const { RichEmbed } = require("discord.js");
 module.exports = {
     name: "poll",
     aliases: ["ol"],
-    category: "info",
+    category: "Moderation",
     description: "Głosowanie",
     usage: "<prefiks> pytanie ankiety",
     run: async (client, message, args, tools) => {
